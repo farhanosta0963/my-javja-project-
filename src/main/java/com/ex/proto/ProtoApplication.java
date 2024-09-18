@@ -18,7 +18,8 @@ public class ProtoApplication {
 
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(ProtoApplication.class, args);
-		File file = new File("xx.txt") ;
+		File file
+				= new File("xx.txt") ;
 
 
 		FileSystemResource x = new FileSystemResource(file) ;
