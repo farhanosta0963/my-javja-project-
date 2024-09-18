@@ -22,7 +22,8 @@ public class ProtoApplication {
 				= new File("xx.txt") ;
 
 
-		FileSystemResource x = new FileSystemResource(file) ;
+		FileSystemResource x
+				= new FileSystemResource(file) ;
 		PrintWriter asd
 				= new PrintWriter(x.getOutputStream(),true) ;
 
