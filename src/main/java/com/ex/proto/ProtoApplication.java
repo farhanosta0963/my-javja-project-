@@ -26,6 +26,9 @@ public class ProtoApplication {
 		FileSystemResource x
 
 				= new FileSystemResource(file) ;
+
+		Object ds = new Object () ;
+
 		PrintWriter asd
 
 
