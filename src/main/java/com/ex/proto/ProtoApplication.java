@@ -13,7 +13,7 @@ import java.nio.file.StandardOpenOption;
 @SpringBootApplication
 public class ProtoApplication {
 
-	public ProtoApplication() throws FileNotFoundException {
+	public ProtoApplication() throws  FileNotFoundException {
 	}
 
 	public static void main(String[] args) throws IOException {
